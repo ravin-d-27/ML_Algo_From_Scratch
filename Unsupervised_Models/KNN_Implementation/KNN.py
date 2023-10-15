@@ -19,14 +19,14 @@ class Knn:
     def _predict(self, x):
         # Step 1: Compute the Distances
 
-        distances = [euclideanDistance(x, training) for training in self.X_train]
+        distances = [euclideanDistance(x, training) for training in self.X_train] # get the distances between the test point and all the training points
 
         # Step 2: Get K Nearest Neighbours and labels
         
-        k_index = np.argsort(distances)[:self.k]
-        k_labels = [self.y_train[i] for i in k_index]
+        k_index = np.argsort(distances)[:self.k] # get the indices of the k nearest neighbours
+        k_labels = [self.y_train[i] for i in k_index] # get the labels of the k nearest neighbours
 
         # Step 3: Majority Vote, most common class label
-        most_common = Counter(k_labels).most_common(1)
+        most_common = Counter(k_labels).most_common(1) # get the most common class label
 
         return most_common[0][0]
