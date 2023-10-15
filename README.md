@@ -6,7 +6,7 @@
 
 <ul>
     <li>
-        <a href = "https://github.com/ravin-d-27/ML_Algo_From_Scratch/tree/main/Unsupervised_Models/KNN_Documentation.md"><h2>K-Nearest Neighbour</h2></a>
+        <a href = "https://github.com/ravin-d-27/ML_Algo_From_Scratch/blob/main/Unsupervised_Models/KNN_Implementation/KNN_Documentation.md">K-Nearest Neighbour</a>
         <p>KNN is a simple and intuitive algorithm based on finding similar data points. In this repository, it perfectly works for Classification Tasks</p>
     </li>
     
