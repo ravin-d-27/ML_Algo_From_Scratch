@@ -17,6 +17,10 @@
         <a href = "https://github.com/ravin-d-27/ML_Algo_From_Scratch/blob/main/Supervised_Models/Logistic_Regression_Implementation/Logistic_Regression_Documenation.md">Logistic Regression</a>
         <p>Logistic regression is a statistical method used for analyzing a dataset in which there are one or more independent variables that can be used to predict the outcome of a categorical dependent variable.</p>
     </li>
+    <li>
+        <a href = "https://github.com/ravin-d-27/ML_Algo_From_Scratch/blob/main/Supervised_Models/Logistic_Regression_Implementation/Naive_Bayes_Documentation.md">Naive Bayes Algorithm</a>
+        <p>Naive Bayes is a probabilistic machine learning algorithm that is widely used for classification tasks. It is based on Bayes' theorem, which describes the probability of an event occurring based on prior knowledge of conditions related to the event.</p>
+    </li>
     
     
 </ul>
